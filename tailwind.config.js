@@ -5,16 +5,17 @@ module.exports = {
     fontFamily: {
       'body': ['"Roboto"','sans-serif'],
      },
+     colors:{
+      'primary': '#c7ef00',
+      'primary-light': '#FCF1D3',
+      'primary-dark': '#C59F85',
+      'dark': '#171717',
+      'dark100': '#212124',
+      'light': '#ffff',
+     },
 
     backgroundColor: theme => ({
      ...theme('colors'),
-     'primary': '#D9BC92',
-     'primary-light': '#FCF1D3',
-     'primary-dark': '#C59F85',
-     'dark': '#171717',
-     'dark100': '#212124',
-     'light': '#ffff',
-
     }),
     gradientColorStops: theme => ({
       ...theme('colors'),
