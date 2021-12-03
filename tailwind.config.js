@@ -6,9 +6,9 @@ module.exports = {
       'body': ['"Roboto"','sans-serif'],
      },
      colors:{
-      'primary': '#c7ef00',
-      'primary-light': '#FCF1D3',
-      'primary-dark': '#C59F85',
+      'primary': '#05B6D3',
+      'primary-light': '#5ee9ff',
+      'primary-dark': '#0ba5bc',
       'dark': '#171717',
       'dark100': '#212124',
       'light': '#ffff',
@@ -19,20 +19,9 @@ module.exports = {
     }),
     gradientColorStops: theme => ({
       ...theme('colors'),
-      'primary': '#D9BC92',
-      'primary-light': '#FCF1D3',
-      'primary-dark': '#C59F85',
      }),
 
-
      textColor: theme => theme('colors'),
-     textColor: {
-      'primary': '#D9BC92',
-      'primary-light': '#FCF1D3',
-      'primary-dark': '#C59F85',
-      'light': '#ffff',
-      'dark': '#171717',
-     }
   },
 
   variants: {
