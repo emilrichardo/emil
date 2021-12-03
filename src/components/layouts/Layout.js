@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import Header from "../../components/header/."
+import Header from "../menu"
 import Footer from "../../components/Footer"
-import OverlayMenu from '../../components/header/OverlayMenu';
+import OverlayMenu from '../menu/OverlayMenu';
 const Layout = ({children}) => {
     const [menuOpen, setMenuOpen] = useState(false);
     const handleOverlayMenu = () => setMenuOpen(prev => !prev);

@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Navigation from './Navigation';
 import { Link } from 'gatsby';
-
-import { Logo } from '../Logo';
 import { VscMenu  } from "react-icons/vsc";
 
 const Header = ({ handleOverlayMenu }) => {
