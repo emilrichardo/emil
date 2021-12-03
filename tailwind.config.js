@@ -11,7 +11,7 @@ module.exports = {
       'primary-dark': '#0ba5bc',
       'dark': '#171717',
       'dark100': '#212124',
-      'light': '#ffff',
+      'light': '#eeee',
      },
 
     backgroundColor: theme => ({
