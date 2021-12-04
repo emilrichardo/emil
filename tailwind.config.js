@@ -3,12 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'body': ['"Roboto"','sans-serif'],
+      'body': ['"Space Grotesk"','sans-serif'],
      },
      colors:{
-      'primary': '#05B6D3',
-      'primary-light': '#5ee9ff',
-      'primary-dark': '#0ba5bc',
+      'primary': '#06d157',
+      'primary-light': '#09ed64',
+      'primary-dark': '#09c153',
       'dark': '#171717',
       'dark100': '#212124',
       'light': '#eeee',

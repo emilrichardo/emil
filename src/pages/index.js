@@ -1,15 +1,57 @@
 import React from "react"
 import Button from "../components/Button"
-import Layout from "../components/layouts/Layout"
+import { StaticImage } from "gatsby-plugin-image"
+import { AiFillBehanceCircle, AiFillLinkedin} from 'react-icons/ai';
+import { SiTailwindcss,SiBootstrap,SiCss3,SiSass,SiHtml5,SiJavascript,SiGatsby,SiReact,SiWordpress,SiWoo,SiGit,SiFigma,SiAdobexd,SiAdobeillustrator,SiAdobephotoshop,SiDocker} from 'react-icons/si';
+import SkillBar from "../components/SkillBar";
+
+
+
 
 export default function Home() {
   return(
-  <Layout>
+  <>
   <div className="text-center  h-screen   flex  items-center justify-center">
-    <div className="py-5">
-      <h1 className="text-4xl md:text-8xl  mb-12">Tailwind CSS Starter</h1>
-      <Button variant="primary" size="sm" to="https://google.com">Button component</Button>
+    <div className="py-5 ">
+     <StaticImage
+        src="../assets/emil.jpg"
+        className="rounded-full h-24 w-24 md:h-44 md:w-44 mb-8 border-2 border-primary"
+        alt="image profile"
+        width={200}
+        height={200}
+     />
+      <h1 className="text-4xl md:text-8xl  font-medium  mb-4">Emil Gonzalez</h1>
+      <h2 className="text-xl md:text-2xl  mb-12">UX/UI Designer - Frontend developer</h2>
+
+      <div className="flex justify-between mb-24">
+
+        <SiCss3/>
+        <SiSass/>
+        <SiHtml5/>
+        <SiJavascript/>
+        <SiTailwindcss/>
+        <SiBootstrap/>
+        <SiGatsby/>
+        <SiReact/>
+        <SiWordpress/>
+        <SiWoo/>
+        <SiGit/>
+        <SiFigma/>
+        <SiAdobexd/>
+        <SiAdobeillustrator/>
+        <SiAdobephotoshop/>
+        <SiDocker/>
+      </div>
+      <Button className="block mx-2 mb-2" variant="primary mb-8" to="https://google.com"><AiFillBehanceCircle className="mr-2 -ml-2"/>Behance</Button>
+      <Button className="block mx-2 mb-2" variant="primary"  to="https://google.com"><AiFillLinkedin className="mr-2 -ml-2"/>Linkedin</Button>
+
+      <footer className="py-24">
+      <a href="mailto:emilrichardo@gmail.com">emilrichardo@gmail.com</a>
+    </footer>
     </div>
+
+
   </div>
-  </Layout>)
+
+  </>)
 }
