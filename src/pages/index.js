@@ -2,7 +2,7 @@ import React from "react"
 import Button from "../components/Button"
 import { StaticImage } from "gatsby-plugin-image"
 import { AiFillBehanceCircle, AiFillLinkedin} from 'react-icons/ai';
-import { SiTailwindcss,SiBootstrap,SiCss3,SiSass,SiHtml5,SiJavascript,SiGatsby,SiReact,SiWordpress,SiWoo,SiGit,SiFigma,SiAdobexd,SiAdobeillustrator,SiAdobephotoshop,SiDocker} from 'react-icons/si';
+import { SiTailwindcss,SiBootstrap,SiCss3,SiSass,SiHtml5,SiJavascript,SiGatsby,SiNextdotjs,SiReact,SiWordpress,SiWoo,SiGit,SiFigma,SiAdobexd,SiAdobeillustrator,SiAdobephotoshop,SiDocker} from 'react-icons/si';
 import SkillBar from "../components/SkillBar";
 
 
@@ -36,6 +36,7 @@ export default function Home() {
         <SiTailwindcss/>
         <SiBootstrap/>
         <SiGatsby/>
+        <SiNextdotjs/>
         <SiReact/>
         <SiWordpress/>
         <SiWoo/>
