@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiTailwindcss,SiBootstrap,SiCss3,SiSass,SiHtml5,SiJavascript,SiGatsby,SiNextdotjs,SiReact,SiWordpress,SiWoo,SiGit,SiGithub,SiFigma,SiAdobexd,SiAdobeillustrator,SiAdobephotoshop,SiDocker} from 'react-icons/si';
+import { SiTailwindcss,SiBootstrap,SiCss3,SiSass,SiHtml5,SiJavascript,SiGatsby,SiNextdotjs,SiReact,SiWordpress,SiWoo,SiGit, SiFigma,SiAdobexd,SiAdobeillustrator,SiAdobephotoshop,SiDocker} from 'react-icons/si';
 import SkillBar from "../components/SkillBar";
 export default function Skills() {
 
@@ -24,6 +24,11 @@ export default function Skills() {
           icon : SiSass,
           percentage: "75"
         },
+        {
+            tag : "Bootstrap 4",
+            icon : SiBootstrap,
+            percentage: "90"
+          },
         {
           tag : "Tailwindcss",
           icon : SiTailwindcss,
