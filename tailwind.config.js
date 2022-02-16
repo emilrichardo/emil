@@ -7,7 +7,7 @@ module.exports = {
      },
      colors:{
       'primary': '#3fff99',
-      'primary-light': '#09ed64',
+      'primary-light': '#35ff82',
       'primary-dark': '#09c153',
       'dark': '#171717',
       'dark100': '#212124',

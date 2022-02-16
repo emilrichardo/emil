@@ -14,14 +14,14 @@ export default function Home() {
     <div>
         <StaticImage
           src="../assets/emilstudio.jpg"
-          className=" md:hidden border-4 border-light    h-24 w-24 md:h-48 md:w-48 mb-8 "
+          className=" md:hidden border-4 border-light  h-24 w-24 md:h-40 md:w-40 mb-8 "
           alt="image profile"
           width={500}
           height={500}
       />
       </div>
       <>
-        <h1 className="text-4xl md:text-8xl   mb-4">Emil Gonzalez</h1>
+        <h1 className="text-4xl md:text-8xl   mb-4">Emil González</h1>
         <h2 className="text-xl px-4  mb-12">UX/UI Designer - Frontend developer</h2>
         <div className="px-4 flex flex-col md:flex-row justify-center">
           <Button className="block mx-2 mb-2" variant="default"  href="https://www.linkedin.com/in/emilgonzalez/" target="_blank"><AiFillLinkedin className="mr-2 -ml-2"/>Linkedin</Button>

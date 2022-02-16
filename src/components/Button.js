@@ -6,8 +6,8 @@ const sizes ={
 }
 
 const variants ={
-    default:'text-dark bg-light hover:bg-primary-light',
-    primary:'text-light bg-gradient-to-r from-primary-dark via-primary to-primary-light  hover:from-primary',
+    default:'text-dark bg-light hover:bg-dark hover:text-light border-4 border-dark',
+    primary:'text-light bg-gradient-to-r from-primary-dark via-primary to-primary-light ',
 }
 const Button = ({to, href, children, className , size, variant, target}) => {
 
@@ -20,7 +20,7 @@ const Button = ({to, href, children, className , size, variant, target}) => {
             ${className}
             ${sizes[size] || sizes.default}
             ${variants[variant] || variants.default}
-            inline-flex  items-center border-4  focus:outline-none   uppercase font-medium cursor-pointer
+            inline-flex  items-center  focus:outline-none   uppercase font-medium cursor-pointer
             `}>
                 {children}
             </a>
@@ -34,7 +34,7 @@ const Button = ({to, href, children, className , size, variant, target}) => {
             ${className}
             ${sizes[size] || sizes.default}
             ${variants[variant] || variants.default}
-            inline-flex  items-center border-4  focus:outline-none   uppercase font-medium cursor-pointer
+            inline-flex  items-center  focus:outline-none   uppercase font-medium cursor-pointer
             `}>
                 {children}
             </Link>
