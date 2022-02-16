@@ -6,12 +6,12 @@ module.exports = {
       'body': ['"Space Grotesk"','sans-serif'],
      },
      colors:{
-      'primary': '#06d157',
+      'primary': '#3fff99',
       'primary-light': '#09ed64',
       'primary-dark': '#09c153',
       'dark': '#171717',
       'dark100': '#212124',
-      'light': '#eeee',
+      'light': '#ffff',
      },
 
     backgroundColor: theme => ({

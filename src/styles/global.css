@@ -10,6 +10,6 @@
     scroll-behavior: smooth;
    }
    body{
-       @apply font-body overflow-x-hidden font-extralight;
+       @apply font-body overflow-x-hidden font-extralight bg-primary;
    }
   }
