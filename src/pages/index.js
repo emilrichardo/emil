@@ -1,33 +1,15 @@
 import React from "react"
+import Layout from "../components/layouts/Layout";
 import Button from "../components/Button"
 import { StaticImage } from "gatsby-plugin-image"
 import { AiFillBehanceCircle, AiFillLinkedin} from 'react-icons/ai';
 import { SiGithub} from 'react-icons/si';
 import Skills from "../components/Skills";
-import { Helmet } from "react-helmet"
-import Favicon from "../assets/favicon.svg"
+
 
 export default function Home() {
   return(
-  <>
-  <Helmet>
-    <title>Emil Gonzalez</title>
-    <link rel="icon" href={Favicon} type="image/x-icon"></link>
-  </Helmet>
-
-  <nav className="flex justify-between py-4 px-4">
-    <StaticImage
-    src="../assets/favicon.svg"
-    className=" h-12 w-12"
-    />
-    <span className="flex md:items-center flex-col md:flex-row   text-right">
-      <a className="underline md:mr-4" href="mailto:emilrichardo@gmail.com">emilrichardo@gmail.com</a>
-      <a href="tel:+543855963936">+54 3855963936</a>
-    </span>
-
-  </nav>
-
-
+  <Layout>
   <div className="md:flex  items-center justify-center z-10 relative top-0" >
     <div className="py-5 text-center">
     <div>
@@ -41,7 +23,7 @@ export default function Home() {
       />
       </div>
       <>
-        <h1 className="text-4xl md:text-6xl font-extrabold	  mb-4">Emil González</h1>
+        <h1 className="text-4xl md:text-6xl font-medium	  mb-4">Emil González</h1>
         <h2 className="text-xl px-4  mb-12">UX/UI Designer - Frontend developer</h2>
         <div className="max-w-4xl italic mx-auto  text-lg mb-12 hidden md:block">
           <p>I am Emil Gonzalez, I have almost 15 years of experience in the field of graphic/web design.</p>
@@ -53,14 +35,13 @@ export default function Home() {
           <Button className="block mx-2 mb-2" variant="default" href="https://www.behance.net/emilgonzalez" target="_blank"><AiFillBehanceCircle className="mr-2 -ml-2"/>Behance</Button>
           <Button className="block mx-2 mb-2" variant="default"  href="https://github.com/emilrichardo" target="_blank"><SiGithub className="mr-2 -ml-2"/>Github</Button>
         </div>
-
-
-
       </>
 
     </div>
   </div>
 
   <Skills/>
-  </>)
+
+  </Layout>
+  )
 }

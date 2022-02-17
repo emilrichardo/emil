@@ -1,21 +1,22 @@
-import React, { useState } from "react"
-import Header from "../menu"
-import Footer from "../../components/Footer"
-import OverlayMenu from '../menu/OverlayMenu';
+import React from "react"
+import Header from "../Header"
+import Footer from "../Footer"
+import { Helmet } from "react-helmet"
+import Favicon from "../../assets/favicon.svg"
 const Layout = ({children}) => {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const handleOverlayMenu = () => setMenuOpen(prev => !prev);
-
     return (
-    <div className="h-screen">
-        <Header  handleOverlayMenu={handleOverlayMenu}  />
-        <OverlayMenu  menuOpen={menuOpen} callback={handleOverlayMenu} />
-        <div className="main-content pt-14 z-10 overflow-x-hidden">
-            {children}
-        </div>
-        <Footer/>
-    </div> );
-
+        <>
+            <Helmet>
+                <title>Emil Gonzalez</title>
+                <link rel="icon" href={Favicon} type="image/x-icon"></link>
+            </Helmet>
+            <Header  />
+            <main>
+                {children}
+            </main>
+            <Footer/>
+        </>
+    );
 }
 
 export default Layout;

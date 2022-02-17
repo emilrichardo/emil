@@ -1,11 +1,11 @@
 import React from 'react';
+import { SiGithub} from 'react-icons/si';
 export default function  Footer (){
     return (
-        <footer className=" text-light body-font bg-dark w-full">
-            <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-                <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4    sm:py-2 sm:mt-0 mt-4">Tailwind starter © 2021
-                </p>
-            </div>
+        <footer className="p-4">
+            <small className="flex items-center"><span>Developed with Gatsby Js + Tailwind CSS</span>
+            <a href="https://github.com/emilrichardo/emil" className="underline" target="_blank"  rel="noreferrer"> <SiGithub className="ml-2 inline-block"/> View code </a>
+            </small>
         </footer>
      );
 }
