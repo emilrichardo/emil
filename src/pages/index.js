@@ -23,8 +23,8 @@ export default function Home() {
       />
       </div>
       <>
-        <h1 className="text-4xl md:text-6xl font-medium	  mb-4">Emil González</h1>
-        <h2 className="text-xl px-4  mb-12">UX/UI Designer - Frontend developer</h2>
+        <h1 className="text-4xl md:text-6xl font-medium	  md:mb-4">Emil González</h1>
+        <h2 className="text-md md:text-xl px-4  mb-12">UX/UI Designer - Frontend developer</h2>
         <div className="max-w-4xl italic mx-auto  text-lg mb-12 hidden md:block">
           <p>I am Emil Gonzalez, I have almost 15 years of experience in the field of graphic/web design.</p>
           <p>I specialize in UX/UI design, Front-End development and wordpress development.</p>
