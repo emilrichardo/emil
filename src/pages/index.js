@@ -35,7 +35,6 @@ export default function Home() {
           <p>I am Emil Gonzalez, I have almost 15 years of experience in the field of graphic/web design.</p>
           <p>I specialize in UX/UI design, Front-End development and wordpress development.</p>
           <p> I am currently part of the Frontends team at Disruptive Studio where I perform tasks ranging from interface design, wireframes, prototyping, UX/UI, to Frontend development and platform implementation of various programming languages.</p>
-          <p> I had the opportunity to work throughout my career for companies in various fields such as: advertising, digital marketing/web development and press. Places where I learned about technical-operational issues, but mostly I got significant growth in topics related to teamwork, working culture, dedication and commitment. </p>
         </div>
         <div className="px-4 flex flex-col md:flex-row justify-center">
           <Button className="block mx-2 mb-2" variant="default"  href="https://www.linkedin.com/in/emilgonzalez/" target="_blank"><AiFillLinkedin className="mr-2 -ml-2"/>Linkedin</Button>
