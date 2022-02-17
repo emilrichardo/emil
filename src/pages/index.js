@@ -20,9 +20,9 @@ export default function Home() {
     <div className="py-5 text-center">
     <div>
         <StaticImage
-          src="../assets/emilstudio.jpg"
+          src="../assets/emilpixelado.png"
           imgClassName="filter grayscale hover:grayscale-0"
-          className="md:hidden border-4    h-24 w-24 md:h-32 md:w-32 mb-8 "
+          className="md:hidden  h-24 w-24 md:h-32 md:w-32 mb-8 "
           alt="image profile"
           width={75}
           height={75}
@@ -31,7 +31,7 @@ export default function Home() {
       <>
         <h1 className="text-4xl md:text-6xl font-extrabold	  mb-4">Emil González</h1>
         <h2 className="text-xl px-4  mb-12">UX/UI Designer - Frontend developer</h2>
-        <div className="max-w-4xl mx-auto text-md mb-12 hidden md:visible">
+        <div className="max-w-4xl mx-auto text-md mb-12 hidden md:block">
           <p>I am Emil Gonzalez, I have almost 15 years of experience in the field of graphic/web design.</p>
           <p>I specialize in UX/UI design, Front-End development and wordpress development.</p>
           <p> I am currently part of the Frontends team at Disruptive Studio where I perform tasks ranging from interface design, wireframes, prototyping, UX/UI, to Frontend development and platform implementation of various programming languages.</p>
@@ -52,7 +52,7 @@ export default function Home() {
 
   <Skills/>
 
-<footer className="py-14 flex flex-col max-w-4xl mx-auto text-2xl">
+<footer className="py-14 px-4 flex flex-col max-w-4xl mx-auto text-2xl">
 <a className=" underline" href="mailto:emilrichardo@gmail.com">emilrichardo@gmail.com</a>
 <a href="tel:+543855963936">+54 3855963936</a>
 
