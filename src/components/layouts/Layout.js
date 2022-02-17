@@ -11,7 +11,7 @@ const Layout = ({children}) => {
                 <link rel="icon" href={Favicon} type="image/x-icon"></link>
             </Helmet>
             <Header  />
-            <main>
+            <main className="min-h-max">
                 {children}
             </main>
             <Footer/>
