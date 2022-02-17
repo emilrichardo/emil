@@ -15,6 +15,18 @@ export default function Home() {
     <link rel="icon" href={Favicon} type="image/x-icon"></link>
   </Helmet>
 
+  <nav className="flex justify-between py-4 px-4">
+    <StaticImage
+    src="../assets/favicon.svg"
+    className=" h-12 w-12"
+    />
+    <span className="flex md:items-center flex-col md:flex-row   text-right">
+      <a className="underline md:mr-4" href="mailto:emilrichardo@gmail.com">emilrichardo@gmail.com</a>
+      <a href="tel:+543855963936">+54 3855963936</a>
+    </span>
+
+  </nav>
+
 
   <div className="md:flex  items-center justify-center z-10 relative top-0" >
     <div className="py-5 text-center">
@@ -31,7 +43,7 @@ export default function Home() {
       <>
         <h1 className="text-4xl md:text-6xl font-extrabold	  mb-4">Emil González</h1>
         <h2 className="text-xl px-4  mb-12">UX/UI Designer - Frontend developer</h2>
-        <div className="max-w-4xl mx-auto text-md mb-12 hidden md:block">
+        <div className="max-w-4xl italic mx-auto  text-lg mb-12 hidden md:block">
           <p>I am Emil Gonzalez, I have almost 15 years of experience in the field of graphic/web design.</p>
           <p>I specialize in UX/UI design, Front-End development and wordpress development.</p>
           <p> I am currently part of the Frontends team at Disruptive Studio where I perform tasks ranging from interface design, wireframes, prototyping, UX/UI, to Frontend development and platform implementation of various programming languages.</p>
@@ -50,14 +62,5 @@ export default function Home() {
   </div>
 
   <Skills/>
-
-<footer className="py-14 px-4 flex flex-col max-w-4xl mx-auto text-2xl">
-<a className=" underline" href="mailto:emilrichardo@gmail.com">emilrichardo@gmail.com</a>
-<a href="tel:+543855963936">+54 3855963936</a>
-
-
-</footer>
-
-
   </>)
 }
