@@ -18,6 +18,7 @@ export default function Home() {
           imgClassName="filter grayscale hover:grayscale-0"
           className="md:hidden  h-24 w-24 md:h-32 md:w-32 mb-8 "
           alt="image profile"
+          placeholder="tracedSVG"
           width={75}
           height={75}
       />
