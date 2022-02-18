@@ -7,7 +7,7 @@ export default function Skills() {
         {
           tag : "CSS 3",
           icon : SiCss3,
-          percentage: "90"
+          percentage: "85"
         },
         {
           tag : "Html 5",
@@ -17,27 +17,27 @@ export default function Skills() {
         {
           tag : "JavaScript",
           icon : SiJavascript,
-          percentage: "65"
+          percentage: "45"
         },
         {
           tag : "Sass",
           icon : SiSass,
-          percentage: "75"
+          percentage: "50"
         },
         {
             tag : "Bootstrap 4",
             icon : SiBootstrap,
-            percentage: "90"
+            percentage: "95"
           },
         {
           tag : "Tailwindcss",
           icon : SiTailwindcss,
-          percentage: "79"
+          percentage: "70"
         },
         {
           tag : "React js",
           icon : SiReact,
-          percentage: "55"
+          percentage: "40"
         },
         {
           tag : "Gatsby js",
@@ -47,7 +47,12 @@ export default function Skills() {
         {
           tag : "Next js",
           icon : SiNextdotjs,
-          percentage: "56"
+          percentage: "45"
+        },
+        {
+          tag : "Frontity",
+          icon : SiWordpress,
+          percentage: "45"
         },
         {
           tag : "Docker",
@@ -57,7 +62,7 @@ export default function Skills() {
         {
           tag : "Wordpress",
           icon : SiWordpress,
-          percentage: "85",
+          percentage: "90",
         },
         {
           tag : "Woocommerce",
@@ -67,7 +72,7 @@ export default function Skills() {
         {
           tag : "Git",
           icon : SiGit,
-          percentage: "68",
+          percentage: "50",
         },
         {
           tag : "Figma",
@@ -77,17 +82,17 @@ export default function Skills() {
         {
           tag : "Adobe XD",
           icon : SiAdobexd,
-          percentage: "78",
+          percentage: "48",
         },
         {
           tag : "Adobe Illustrator",
           icon : SiAdobeillustrator,
-          percentage: "90",
+          percentage: "65",
         },
         {
           tag : "Adobe Photoshop",
           icon : SiAdobephotoshop,
-          percentage: "80",
+          percentage: "75",
         }
 
 
