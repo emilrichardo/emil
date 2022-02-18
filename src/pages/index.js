@@ -29,7 +29,7 @@ export default function Home() {
         <div className="max-w-4xl italic mx-auto  text-lg mb-12 hidden md:block">
           <p>I am Emil Gonzalez, I have almost 15 years of experience in the field of graphic/web design.</p>
           <p>I specialize in UX/UI design, Front-End development and wordpress development.</p>
-          <p> I am currently part of the Frontends team at Disruptive Studio where I perform tasks ranging from interface design, wireframes, prototyping, UX/UI, to Frontend development and platform implementation of various programming languages.</p>
+          <p> I am currently part of the Frontends team at <a className="underline" rel="noreferrer" href="https://disruptivestudio.com/" target="_blank"> Disruptive Studio</a> where I perform tasks ranging from interface design, wireframes, prototyping, UX/UI, to Frontend development and platform implementation of various programming languages.</p>
         </div>
         <div className="px-4 flex flex-col md:flex-row justify-center">
           <Button className="block mx-2 mb-2" variant="default"  href="https://www.linkedin.com/in/emilgonzalez/" target="_blank"><AiFillLinkedin className="mr-2 -ml-2"/>Linkedin</Button>
