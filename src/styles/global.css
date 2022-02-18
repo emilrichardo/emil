@@ -11,7 +11,7 @@
    }
    body{
        background-image:url('../assets/bgpixel.svg');
-       background-size:.7vw;
+       background-size:5px;
        @apply font-body overflow-x-hidden font-extralight bg-light;
    }
   }
