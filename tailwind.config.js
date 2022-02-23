@@ -1,6 +1,9 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './src/pages/**/*.js',
+    './src/components/**/*.js',
+  ],
+
   theme: {
     fontFamily: {
       'body': ['"Space Grotesk"','sans-serif'],
@@ -24,9 +27,7 @@ module.exports = {
      textColor: theme => theme('colors'),
   },
 
-  variants: {
-    extend: {},
-  },
+
   plugins: [
     {
       resolve: 'gatsby-plugin-favicons',

@@ -1,6 +1,7 @@
 import React from 'react';
 import { SiTailwindcss,SiBootstrap,SiCss3,SiSass,SiHtml5,SiJavascript,SiGatsby,SiNextdotjs,SiReact,SiWordpress,SiWoo,SiGit, SiFigma,SiAdobexd,SiAdobeillustrator,SiAdobephotoshop,SiDocker} from 'react-icons/si';
 import SkillBar from "../components/SkillBar";
+import MainSkills from './MainSkills';
 export default function Skills() {
 
     const Skills = [
@@ -100,7 +101,8 @@ export default function Skills() {
     return(
         <div className="max-w-4xl mx-auto mt-8 px-4 py-10  ">
             <h2 className='text-4xl mb-4'>Skills</h2>
-            <div className='grid gap-4 grid-cols-2 md:grid-cols-3'>
+            <MainSkills/>
+            <div className='mt-16 grid gap-4 grid-cols-2 md:grid-cols-3'>
                 {Skills.map((Skill, i)=> (
                 <SkillBar
                 Tag={Skill.tag}
