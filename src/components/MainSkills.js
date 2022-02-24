@@ -1,7 +1,7 @@
 import React from 'react';
 export default function MainSkills() {
     return(
-        <div className='flex  border-4 rounded-sm mb-4  border-dark'>
+        <div className='flex  border-4 rounded-sm mb-8  border-dark'>
 
             <MainBar
             Skill="Design"
