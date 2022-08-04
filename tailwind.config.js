@@ -6,7 +6,7 @@ module.exports = {
 
   theme: {
     fontFamily: {
-      'body': ['"Space Grotesk"','sans-serif'],
+      'body': 'Playfair Display',
      },
      colors:{
       'primary': '#3fff99',

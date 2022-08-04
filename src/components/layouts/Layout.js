@@ -31,7 +31,7 @@ const Layout = ({children}) => {
             <main className="min-h-max">
                 {children}
             </main>
-            <Footer/>
+
         </>
     );
 }
