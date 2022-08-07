@@ -6,7 +6,7 @@ module.exports = {
 
   theme: {
     fontFamily: {
-      'body': 'Playfair Display',
+      'body': 'Fira Sans',
      },
      colors:{
       'primary': '#3fff99',

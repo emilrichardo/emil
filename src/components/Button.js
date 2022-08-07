@@ -6,7 +6,7 @@ const sizes ={
 }
 
 const variants ={
-    default:'text-dark bg-light hover:bg-dark hover:text-light border-4 border-dark',
+    default:'text-light bg-dark hover:bg-light hover:text-dark border-4 border-light',
     primary:'text-light bg-gradient-to-r from-primary-dark via-primary to-primary-light ',
 }
 const Button = ({to, href, children, className , size, variant, target}) => {

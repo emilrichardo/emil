@@ -28,7 +28,7 @@ const Layout = ({children}) => {
 
             </Helmet>
             <Header  />
-            <main className="min-h-max">
+            <main className="min-h-max px-24 pt-12">
                 {children}
             </main>
 
